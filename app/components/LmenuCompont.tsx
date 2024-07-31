@@ -16,7 +16,7 @@ const MenuButton = () => {
     return (
       <View>
         <TouchableOpacity style={styles.button} onPress={toggleModal}>
-        <Feather name="menu" size={24} color="black" />
+        <Feather name="menu" size={24} color="white" />
       </TouchableOpacity>
 
         <Modal
@@ -49,9 +49,10 @@ const MenuButton = () => {
   const styles = StyleSheet.create({
     button: {
       padding: 10,
-      backgroundColor: '#036B72',
+      backgroundColor: '#03BB72',
       borderRadius: 25,
       elevation: 5,
+      color: 'white',
     },
 
     modalOverlay: {

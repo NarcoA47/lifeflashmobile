@@ -51,24 +51,28 @@ export default function TextManager() {
                     Secure
                 </Text>
             </View>
-            <View style={styles.textContainer}>
-                <Text>
+            <View>
+                <Text style={styles.textContainer}>
                     Using LIFEFLASH is the easiest way to access Medical care where and when you need.
                 </Text>
             </View>
             <View style={styles.textContainerListing}>
-                <Text style={styles.listItem}>
-                    Same day appointments available 
-                </Text>
-                <Text style={styles.listItem}>
-                    Prescriptions for any Zambian pharmacy
-                </Text>
-                <Text style={styles.listItem}>
-                    From your computer, tablet or mobile
-                </Text>
-                <Text style={styles.listItem}>
-                    Experienced medical team
-                </Text>
+                <View style={styles.listItem}>
+                <View style={styles.bullet}></View>
+                <Text style={styles.item}>Same day appointments available</Text> 
+                </View>
+                <View style={styles.listItem}>
+                <View style={styles.bullet}></View>
+                <Text style={styles.item}>Prescriptions for any Zambian pharmacy</Text>
+                </View>
+                <View style={styles.listItem}>
+                <View style={styles.bullet}></View>
+                <Text style={styles.item}>From your computer, tablet or mobile</Text>
+                </View>
+                <View style={styles.listItem}>
+                    <View style={styles.bullet}></View>
+                    <Text style={styles.item}>Experienced medical team</Text>
+                </View>
             </View>
         </View>
     )
@@ -76,47 +80,62 @@ export default function TextManager() {
 
 const styles = StyleSheet.create({
     container: {
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    divided: {
-
+        margin: 12,
     },
 
     leadingText: {
-        marginTop: 24,
-        fontSize: 16,
+        justifyContent: 'center',
+        margin: 12,
+        fontSize: 14,
         textAlign: 'center',
         fontFamily: 'Poppins-Bold',
     },
 
     divided: {
+        justifyContent: 'center',
         flexDirection: 'row', 
     },
 
     dot: {
-        backgroundColor: 'black',
+        backgroundColor: '#30B3FF',
         width: 5,
         height: 5,
         borderRadius: 50,
-        marginTop: 35,
+        marginTop: 30,
     },
 
     textItem: {
+        color: '#30B3FF',
         fontFamily: 'Poppins-Bold',
-        margin: 24,
-        fontSize: 20,
+        margin: 20,
+        fontSize: 18,
         textAlign: 'center',
     },
 
     textContainer: {
         fontSize: 14,
         textAlign: 'center',
-        // fontFamily: 'Poppins-Black'
+        fontFamily: 'Poppins-Medium',
     },
 
     textContainerListing: {
+        marginTop: 12, 
+    },
+
+    listItem: {
+        flexDirection: 'row', 
+        margin: 8
+    },
+
+    bullet: {
+        backgroundColor: 'black',
+        width: 5,
+        height: 5,
+        borderRadius: 50,
+        margin: 6,
+    },
+    item: {
         fontSize: 14,
-        // fontFamily: 'Poppins-Black'
+        fontFamily: 'Poppins-Medium',
     },
  })

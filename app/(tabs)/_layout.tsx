@@ -25,15 +25,6 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="bookings"
-        options={{
-          title: 'Bookings',
-          tabBarIcon: ({ color, focused }) => (
-            <Feather name="calendar" size={24} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
         name="services"
         options={{
           title: 'Services',
@@ -42,6 +33,16 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="bookings"
+        options={{
+          title: 'Bookings',
+          tabBarIcon: ({ color, focused }) => (
+            <Feather name="calendar" size={24} color={color} />
+          ),
+        }}
+      />
+      
       <Tabs.Screen
         name="help"
         options={{
