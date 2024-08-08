@@ -36,7 +36,7 @@ export default function TextManager() {
     return (
         <View style={styles.container}>
             <Text style={styles.leadingText}>
-                Whether you need a pharmacy prescription, treatment for a health concern or would like to receive expert medical advice, book an appointment today to speak to an experienced LIFEFLASH Expert.
+            Whether you need a pharmacy prescription, treatment for a health concern, or expert medical advice, book an appointment today to speak with an experienced LIFEFLASH Expert.
             </Text>
             <View style={styles.divided}>
                 <Text style={styles.textItem}>
@@ -85,7 +85,8 @@ const styles = StyleSheet.create({
 
     leadingText: {
         justifyContent: 'center',
-        margin: 12,
+        margin: 10,
+        padding: 2,
         fontSize: 14,
         textAlign: 'center',
         fontFamily: 'Poppins-Bold',
@@ -94,6 +95,7 @@ const styles = StyleSheet.create({
     divided: {
         justifyContent: 'center',
         flexDirection: 'row', 
+        padding: 8,
     },
 
     dot: {
@@ -108,6 +110,7 @@ const styles = StyleSheet.create({
         color: '#30B3FF',
         fontFamily: 'Poppins-Bold',
         margin: 20,
+        padding: 4,
         fontSize: 18,
         textAlign: 'center',
     },
