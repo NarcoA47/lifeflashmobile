@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
         width: 5,
         height: 5,
         borderRadius: 50,
-        marginTop: 16,
+        marginTop: 28,
     },
 
     textItem: {
