@@ -9,7 +9,7 @@ import StepComponent from '../components/services/LstepComponent';
 function ServiceScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <NavigationBar navigation={undefined}/>
+      {/* <NavigationBar navigation={undefined}/> */}
       <TextManagerComponentServices/>
       <BannerComponent/>
       <StepComponent/>

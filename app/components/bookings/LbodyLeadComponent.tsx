@@ -5,7 +5,7 @@ export default function BodyLeadComponent() {
   return (
     <View style={styles.container}>
         <Image
-          src='../../../assets/components/1.png'
+          src='../../../assets/components/2.jpg'
           style={styles.imageManager}
         />
     </View>

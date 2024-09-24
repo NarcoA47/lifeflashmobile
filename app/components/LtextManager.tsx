@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
 
     leadingText: {
         justifyContent: 'center',
-        margin: 12,
+        margin: 4,
         fontSize: 14,
         textAlign: 'center',
         fontFamily: 'Poppins-Bold',
@@ -101,13 +101,13 @@ const styles = StyleSheet.create({
         width: 5,
         height: 5,
         borderRadius: 50,
-        marginTop: 28,
+        marginTop: 16,
     },
 
     textItem: {
         color: '#30B3FF',
         fontFamily: 'Poppins-Bold',
-        margin: 20,
+        margin: 8,
         fontSize: 18,
         textAlign: 'center',
     },

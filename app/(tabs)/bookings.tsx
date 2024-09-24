@@ -11,7 +11,6 @@ import ButtonComponentController from '../components/LButtonComponentController'
 function BookingScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <NavigationBar navigation={undefined}/>
       <HeaderComponentBooking/>
       <BodyLeadComponent/>
       <TextManagerComponentBookings/>

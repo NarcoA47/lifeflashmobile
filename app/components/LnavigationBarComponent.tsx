@@ -4,7 +4,7 @@ import { Icon } from 'react-native-elements';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import MenuButton from './LmenuCompont';
 import { ScrollView } from 'react-native-gesture-handler';
-import IconMenue from './LiconCompoent'
+import IconMenue from '../../components/LiconCompoent'
 
 export default function NavigationBar({navigation}){
   return (

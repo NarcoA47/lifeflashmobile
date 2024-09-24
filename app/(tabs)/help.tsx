@@ -6,7 +6,7 @@ import NavigationBar from '../components/LnavigationBarComponent';
 function HelpScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <NavigationBar navigation={undefined}/>
+      {/* <NavigationBar navigation={undefined}/> */}
     </SafeAreaView>
   )
 }

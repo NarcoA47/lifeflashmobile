@@ -6,7 +6,7 @@ const IconMenue = () => {
   return (
     <View>
         <Image
-        source={require('../../assets/icons/Ticon.png')}
+        source={require('../assets/icons/Ticon.png')}
         style={styles.image}
         />
     </View>
